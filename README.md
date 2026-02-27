@@ -73,15 +73,18 @@ DATABASES = {
     }
 }
 5️⃣ Apply Migrations
+
 python manage.py makemigrations
 python manage.py migrate
+
 6️⃣ Run Server
+
 python manage.py runserver
 
 Server will run at:
 
 http://127.0.0.1:8000/
-🔐 Authentication
+#🔐 Authentication
 
 This project uses JWT (JSON Web Token) for secure authentication.
 
@@ -103,7 +106,8 @@ Course Reviews & Ratings
 
 👤 Author
 
-Newin
+Newin Paul
+
 Django Backend Developer
 
 ⭐ Contribute
